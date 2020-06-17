@@ -21,7 +21,9 @@
     margin-top: 100px;
 }
 .sobremim{
-    background-color: white;
+    background-color: #d6d6d670;
     border-radius: 19px;
     padding: 32px;
+    right: 60px;
+    position: relative;
 }
