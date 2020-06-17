@@ -5,7 +5,7 @@
     background-position: right !important;
     background-repeat: no-repeat !important;
 }
-.bg-sobrehome::before{
+/* .bg-sobrehome::before{
     content: "";
     width: 100%;
     height: 100%;
@@ -13,10 +13,15 @@
     background: #3a3a3a99;
     top: 0px;
     left: 0;
-}
+} */
 .bg-sobrehome p{
-   color:#fff;
+   color:#000;
 }
 .nossotramento{
     margin-top: 100px;
+}
+.sobremim{
+    background-color: white;
+    border-radius: 19px;
+    padding: 32px;
 }
