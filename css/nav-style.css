@@ -88,12 +88,12 @@ nav.nav-white.nav-transparent ul.attributes li a:hover {
 }
 
 nav .menu li.active > a {
-    color: #f05697 !important; 
-	
-	border-radius: 0px;
+    color: #bd545b !important;
+    border-radius: 0px;
+    font-weight: 700;
 }
 nav .menu li a:hover {
-    color: #f05697 !important;
+    color: #bd545b !important;
 }
 nav.on-scroll.nav-white .menu li.active > a,
 nav.on-scroll.nav-white .menu li a:hover {
@@ -348,7 +348,8 @@ nav.nav-core-sticky.on-scroll.brand-center .nav-header, nav.nav-core-sticky.on-s
 	z-index: 9999;
     position: absolute;
     width: 100%;    
-	min-height: 50px;
+    min-height: 50px;
+    display: none;
 }
 .topbar-call {
     transition: all 0.5s ease-in-out;
