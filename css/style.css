@@ -10669,8 +10669,10 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
 }
 
 .formulario-home {
-    background: url(../images/bgform.jpg);
+    background: url(../images/bgform.png);
     padding-bottom: 100px;
+    background-position: right;
+    background-size: contain;
 }
 
 .tituloform {
@@ -10874,9 +10876,9 @@ footer {
 }
 
 .customer-rating {
-    background-color: #eee;
+    background-color: #a6555b;
     border: 3px solid #fff;
-    color: rgba(1, 1, 1, 0.702);
+    color: rgb(255, 255, 255);
     font-weight: 700;
     border-radius: 50%;
     position: absolute;
@@ -10901,7 +10903,7 @@ footer {
 }
 
 .customer-rating i {
-    color: rgb(251, 90, 13);
+    color:#fff;
     position: absolute;
     top: 10px;
     right: 5px;
@@ -11081,4 +11083,8 @@ footer {
 
 .owl-carousel .owl-stage-outer {
     padding-bottom: 6px;
+}
+.top-bar .core-nav.nav-core-sticky.on-scroll {
+    top: auto;
+    box-shadow: 0 0 9px 0px #f1f1f1;
 }
