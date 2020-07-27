@@ -10671,8 +10671,9 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
 .formulario-home {
     background: url(../images/bgform.png);
     padding-bottom: 100px;
-    background-position: right;
-    background-size: contain;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .tituloform {
