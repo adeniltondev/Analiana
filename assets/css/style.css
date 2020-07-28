@@ -9948,12 +9948,13 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
 
 .dt-sc-image-caption.type8 .dt-sc-image-content {
     position: relative;
-    background: rgba(0, 0, 0, 0.03);
+    background: rgb(255, 121, 101);
     margin-top: 0px;
     padding: 60px 20px 30px;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
+    color:#fff;
 }
 
 .dt-sc-image-caption.type8 .dt-sc-image-title {
@@ -9964,12 +9965,13 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
 .dt-sc-image-caption.type8 .dt-sc-image-content h3 {
     font-size: 18px;
     font-weight: 600;
+    color:#fff;
     text-transform: none;
 }
 
 .dt-sc-image-caption.type8:hover .dt-sc-image-content h3 a {
     background: none;
-    color: #000000;
+    color: #fff;
 }
 
 .dt-sc-image-caption.type8 .dt-sc-image-content:before {
