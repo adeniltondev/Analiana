@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "BentonSansBlack";
+    src: url(../fonts/BentonSansBlack.otf);
+}
+@font-face {
+    font-family: "BentonSansBold";
+    src: url(../fonts/BentonSansBold.otf);
+}
+@font-face {
+    font-family: "BentonSansBook";
+    src: url(../fonts/BentonSansBook.otf);
+}
+@font-face {
+    font-family: "BentonSansMedium";
+    src: url(../fonts/BentonSansMedium.otf);
+}
+@font-face {
+    font-family: "BentonSansRegular";
+    src: url(../fonts/BentonSansRegular.otf);
+}
+
+
+.formcontato{
+    background: #fff;
+box-shadow: 0 0 11px #e5e5e5;
+border-radius: 5px;
+padding:19px;
+position: relative;
+    top: 53px;
+    left: 43px;
+}
+.tituloform {
+padding-top: 23px;
+font-family: "BentonSans Medium";
+color: #fff;
+}
+.copy p{
+    color: #a6555b;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: left;
+}
+.copy{
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 3px 0 0;
+    border-color: #a6555b;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin-top: 5px;
+    /* padding: 0; */
+}
+.icon{
+    position: absolute;
+}
+.formcontato svg{
+    position: absolute;
+    color:#fff;
+    font-size: 30px;
+}
+.core-nav .nav-container {
+    /* width: 100%; */
+    /* border-radius: 0px !important; */
+}
+.top-bar .core-nav.nav-core-sticky {
+    /* top: 0px !important; */
+}
+.core-nav.nav-core-sticky{
+    /* position: relative; */
+}
+.titulo-banner{
+    padding-top: 89px;
+    font-family: "BentonSans Bold";
+    font-weight: 800;
+    font-size: 40px;
+}
+.sub-banner{
+    font-family: "BentonSans Regular";
+    margin-top: -27px;
+    margin-bottom: 12px;
+}
+.ul-banner{
+    list-style: none;
+}
+.btn-agendar{
+    margin-top: 50px;
+    background-color: #a6555b;
+    border: 0px;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    box-shadow: 1px 7px 6px #e9e9e9;
+}
+.img-banner{
+    margin-top: 89px;
+    border-radius: 111px 0px 118px 63px;
+    box-shadow: rgb(218, 218, 218) 0px 0px 9px;
+    width: 100%;
+    position: relative;
+    left: 164px;
+}
+.titulo-tratamento-home h2{
+    font-family: "BentonSansBold";
+}
+.sub-titulo{
+    font-size: 22px;
+    line-height: 10px;
+    color: #302f2f;
+    font-weight: 500;
+}
