@@ -875,12 +875,12 @@ h3.widgettitle {
 }
 .titulo-video{
     position: absolute;
-    top: 179px;
+    top: 116px;
     color: white;
-    font-size: 2.1em;
+    font-size: 4.1em;
     font-weight: 200;
-    width: 38%;
-    line-height: 37px;
+    width: 73%;
+    line-height: 57px;
 }
 .sub-video{
     position: absolute;
@@ -892,7 +892,7 @@ h3.widgettitle {
 }
 .ul-video{
     position: absolute;
-    top: 312px;
+    top: 290px;
     color: white;
     font-size: 23px;
     font-weight: 100;
@@ -914,14 +914,14 @@ h3.widgettitle {
     width: 17%;
     padding: 12px;
     border: 1px solid #ff7965;
-    background-color: #dacdcd00;
+    background-color:#ff7965;
     border-radius: 38px;
     cursor: pointer;
 }
 .hr-video{
     background-color: #ff7965;
     position: relative;
-    top: -384px;
+    top: -286px;
     width: 48%;
     height: 1px;
     border: 0px;
@@ -1733,7 +1733,7 @@ Appointment Area CSS
     content: '';
     position: absolute;
     z-index: -1;
-    background: #ffffff;
+    /* background: #ffffff; */
     width: 96%;
     opacity: .62;
     height: 50%;
@@ -1872,4 +1872,10 @@ Appointment Area CSS
     text-align: center;
     margin-top: 35px;
   }
-  
+  .btn-agender{
+    background-color: #ff7965;
+    border: 0px;
+    border-radius: 50px;
+    width: 24%;
+    color:#fff;
+  }
