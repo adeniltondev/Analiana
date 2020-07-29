@@ -8965,7 +8965,8 @@ ul.list-edit li:after {
 }
 
 .dt-sc-colored-icon-box .dt-sc-colored-content-title h3 a {
-    color: #343434;
+    color: #ffffff;
+    font-weight: 300;
 }
 
 .dt-sc-colored-icon-box .dt-sc-colored-content-title h3 {

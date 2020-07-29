@@ -930,3 +930,14 @@ h3.widgettitle {
     background: #88423899;
 }
 video{width: 100%;}
+.dt-sc-colored-icon-box.pista .dt-sc-colored-content .icon-image{
+   background: #fff;
+   color:#fff;
+}
+.dt-sc-colored-icon-box.pista .dt-sc-colored-content .icon-image a:hover{
+    background: #fff;
+    color:#fff;
+ }
+ .dt-sc-colored-icon-box.pista .dt-sc-colored-content-title h3 a:hover {
+    color: #ffffff;
+}
