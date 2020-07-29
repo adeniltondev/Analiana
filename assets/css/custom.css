@@ -879,8 +879,10 @@ h3.widgettitle {
     color: white;
     font-size: 4.1em;
     font-weight: 200;
-    width: 73%;
+    width: 60%;
     line-height: 57px;
+    font-size: 62px;
+    margin-top: 110px;
 }
 .sub-video{
     position: absolute;
@@ -892,7 +894,7 @@ h3.widgettitle {
 }
 .ul-video{
     position: absolute;
-    top: 290px;
+    top: 371px;
     color: white;
     font-size: 23px;
     font-weight: 100;
@@ -904,10 +906,11 @@ h3.widgettitle {
 }
 .ul-video svg{
     color:#ff8472;
+    font-size: 25px;
 }
 .btn-agendar-video{
     position: absolute;
-    top: 417px;
+    top: 498px;
     color: white;
     font-size: 17px;
     font-weight: 100;
@@ -921,7 +924,7 @@ h3.widgettitle {
 .hr-video{
     background-color: #ff7965;
     position: relative;
-    top: -286px;
+    top: -209px;
     width: 48%;
     height: 1px;
     border: 0px;
