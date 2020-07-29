@@ -8873,10 +8873,11 @@ ul.list-edit li:after {
 
 .tituloola h2 {
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 900;
     letter-spacing: 0px;
     color: #bd545b;
     padding-top: 26px;
+    font-family: "BentonSansMedium";
 }
 
 /* .btn-saiba-mais {
@@ -9950,19 +9951,20 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
-    border: 7px solid #ff7965;
+    border: 7px solid #fff;
     z-index: 1;
+    background: #ff7965;
 }
 
 .dt-sc-image-caption.type8 .dt-sc-image-title:before,
-.dt-sc-image-caption.type8 .dt-sc-image-title:after {
-    content: "";
+.dt-sc-image-caption.type8 .dt-sc-image-title:after {    content: "";
     position: absolute;
     left: 0px;
     right: 0px;
     margin: auto;
-    background: #ff7965;
+    background: #ffffff;
     z-index: 1;
+    margin-top: -8px;
 }
 
 .dt-sc-image-caption.type8 .dt-sc-image-title:before {

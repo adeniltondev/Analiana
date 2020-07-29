@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "BentonSansBlack";
     src: url(../fonts/BentonSansBlack.otf);
 }
@@ -16,10 +16,11 @@
 }
 @font-face {
     font-family: "BentonSansRegular";
-    src: url(../fonts/BentonSansRegular.otf);
-}
+    src: url(../fonts/BentonSansRegular.otf); */
 
-
+@font-face {font-family: "HFNVGC+BentonSans-Bold"; src: url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.eot"); src: url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.woff") format("woff"), url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.svg#HFNVGC+BentonSans-Bold") format("svg"); }
+@font-face {font-family: "BentonSansMedium"; src: url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.eot"); src: url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.woff") format("woff"), url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.svg#BentonSansMedium") format("svg"); }
+@font-face {font-family: "BentonSans-Regular"; src: url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.eot"); src: url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.woff") format("woff"), url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.svg#BentonSans-Regular") format("svg"); }
 .formcontato{
     background: #fff;
     box-shadow: 0 0 11px #e5e5e5;
@@ -79,7 +80,7 @@
 }
 .titulo-banner{
     padding-top: 89px;
-    font-family: "BentonSans Bold";
+    font-family: "HFNVGC+BentonSans-Bold";
     font-weight: 800;
     font-size: 40px;
 }
@@ -169,6 +170,7 @@
     font-weight: 300;
     width: 89%;
     margin-bottom: 10px;
+    font-family: "BentonSans-Regular";
 }
 
 .img-doutora-home {
@@ -202,7 +204,7 @@
 .centered {
     position: absolute;
     left: 26%;
-    top: 67%;
+    top: 72%;
     transform: translate(-50%, -50%);
 }
   
@@ -1083,7 +1085,7 @@ margin: 15px 0;
 
 .testim .cont div p {
 font-size: 1.15em;
-color: #eee;
+color: #8a8a8a;
 width: 80%;
 margin: auto;
 }
@@ -1528,5 +1530,344 @@ body {
 .testim .cont div p {
     line-height: 25px;
 }
-
 }
+.depoimentotitulo{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #bd545b;
+    padding-top: 0px;
+    font-family: "BentonSansMedium";
+    text-align: center;
+}
+*================================================
+Appointment Area CSS
+=================================================*/
+.appointment-area {
+    position: relative;
+    z-index: 1;
+    background: {
+        image: url(../../assets/img/appointment-bg.jpg);
+        position: center center;
+        size: cover;
+        repeat: no-repeat;
+    }
+}
+.appointment-content {
+    background-color: $white-color;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    max-width: 700px;
+    margin: {
+        left: auto;
+        right: 100px;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        background: $white-color;
+        width: 96%;
+        opacity: .62;
+        height: 50%;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 3px;
+    }
+    .sub-title {
+        display: block;
+        margin-bottom: 5px;
+        color: $main-color;
+        font: {
+            size: 17px;
+            family: $optional-font-family;
+        }
+    }
+    h2 {
+        margin-bottom: 0;
+        max-width: 520px;
+        line-height: 1.3;
+        font: {
+            size: 40px;
+            weight: 600;
+        }
+    }
+    form {
+        margin-top: 5px;
+
+        .form-group {
+            position: relative;
+            padding-left: 55px;
+            margin: {
+                bottom: 0;
+                top: 30px;
+            }
+            .icon {
+                position: absolute;
+                left: 0;
+                top: 0;
+                color: $main-color;
+                font-size: 35px;
+            }
+            label {
+                display: block;
+                text-transform: uppercase;
+                color: $paragraph-color;
+                margin-bottom: 8px;
+                font: {
+                    size: 13px;
+                    weight: 500;
+                }
+            }
+            .form-control {
+                border: none;
+                height: auto;
+                border-bottom: 1px solid #eeeeee;
+                font: {
+                    size: 17px;
+                    weight: 600;
+                }
+                padding: {
+                    left: 0;
+                    right: 0;
+                    bottom: 8px;
+                }
+                &::placeholder {
+                    color: $black-color;
+                }
+                &:focus {
+                    border-color: $main-color;
+                    padding-left: 2px;
+                }
+            }
+            .nice-select {
+                background-color: transparent;
+                color: $black-color;
+                border-radius: 0;
+                border: none;
+                border-bottom: 1px solid #eeeeee;
+                height: unset;
+                line-height: initial;
+                padding: 0 35px 8px 0;
+                font: {
+                    size: 17px;
+                    weight: 600;
+                }
+                .list {
+                    background-color: $white-color;
+                    box-shadow: 0 0 29px 0 rgba(102, 102, 102, 0.1);
+                    border-radius: 0;
+                    margin-top: 0;
+                    width: 100%;
+                    height: 260px;
+                    overflow-y: scroll;
+                    padding: {
+                        top: 10px;
+                        bottom: 10px;
+                    }
+                    .option {
+                        transition: $transition;
+                        font: {
+                            size: 15px;
+                        }
+                        padding: {
+                            left: 20px;
+                            right: 20px;
+                        }
+                        &:hover {
+                            background-color: $main-color !important;
+                            color: $white-color;
+                        }
+                        &.selected {
+                            background-color: transparent;
+                        }
+                    }
+                }
+                &:after {
+                    right: 0;
+                    border-color: $black-color;
+                }
+            }
+        }
+        .submit-btn {
+            text-align: center;
+            margin-top: 35px;
+        }
+    }
+}
+
+
+/*================================================
+Appointment Area CSS
+=================================================*/
+.appointment-area {
+    position: relative;
+    z-index: 1;
+    background-image: url(../../assets/img/appointment-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .appointment-content {
+    background-color: #ffffff;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+            box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    /* max-width: 700px; */
+    /* margin-left: auto; */
+    /* margin-right: 100px; */
+    margin: auto;
+    margin-top: 89px;
+  }
+  
+  .appointment-content::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background: #ffffff;
+    width: 96%;
+    opacity: .62;
+    height: 50%;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 3px;
+  }
+  
+  .appointment-content .sub-title {
+    display: block;
+    margin-bottom: 5px;
+    color: #19ce67;
+    font-size: 17px;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .appointment-content h2 {
+    margin-bottom: 0;
+    max-width: 520px;
+    line-height: 1.3;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .appointment-content form {
+    margin-top: 5px;
+  }
+  
+  .appointment-content form .form-group {
+    position: relative;
+    padding-left: 55px;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+  
+  .appointment-content form .form-group .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ff7965;
+    font-size: 35px;
+  }
+  
+  .appointment-content form .form-group label {
+    display: block;
+    text-transform: uppercase;
+    color: #7d7d7d;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .appointment-content form .form-group .form-control {
+    border: none;
+    height: auto;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 8px;
+  }
+  
+  .appointment-content form .form-group .form-control::-webkit-input-placeholder {
+    color: #121521;
+  }
+  
+  .appointment-content form .form-group .form-control:-ms-input-placeholder {
+    color: #121521;
+  }
+  
+  .appointment-content form .form-group .form-control::-ms-input-placeholder {
+    color: #121521;
+  }
+  
+  .appointment-content form .form-group .form-control::placeholder {
+    color: #121521;
+  }
+  
+  .appointment-content form .form-group .form-control:focus {
+    border-color: #19ce67;
+    padding-left: 2px;
+  }
+  
+  .appointment-content form .form-group .nice-select {
+    background-color: transparent;
+    color: #121521;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    height: unset;
+    line-height: initial;
+    padding: 0 35px 8px 0;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  .appointment-content form .form-group .nice-select .list {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 29px 0 rgba(102, 102, 102, 0.1);
+            box-shadow: 0 0 29px 0 rgba(102, 102, 102, 0.1);
+    border-radius: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 260px;
+    overflow-y: scroll;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .appointment-content form .form-group .nice-select .list .option {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .appointment-content form .form-group .nice-select .list .option:hover {
+    background-color: #19ce67 !important;
+    color: #ffffff;
+  }
+  
+  .appointment-content form .form-group .nice-select .list .option.selected {
+    background-color: transparent;
+  }
+  
+  .appointment-content form .form-group .nice-select:after {
+    right: 0;
+    border-color: #121521;
+  }
+  
+  .appointment-content form .submit-btn {
+    text-align: center;
+    margin-top: 35px;
+  }
+  

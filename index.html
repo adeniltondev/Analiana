@@ -484,6 +484,7 @@
 
 		<section id="testim" class="testim">
 			<!--         <div class="testim-cover"> -->
+				<h1 class="depoimentotitulo">Depoimentos</h1>
 						<div class="wrap">
 			
 							<span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
@@ -536,35 +537,74 @@
 		<section class="formulario-home">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 formcontato">
-						<h1 class="tituloform">Marque a sua consulta</h1>
-						<p>Confirmaremos sua consulta dentro de 2 horas</p>
-						<form class="">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="icon">
-										<i class="fal fa-user"></i>
-									</div>
-									<input placeholder="Nome"></input>
-								</div>
-								<div class="col-lg-6">
-									<input placeholder="Telefone"></input>
-								</div>
-								<div class="col-lg-6">
-									<input placeholder="E-mail"></input>
-								</div>
-								<div class="col-lg-6">
-									<select>
-										<option>Especialidades</option>
-									</select>
-								</div>
-								<button class="btn btn-agendar-home">Agendar</button>
-							</div>
-						</form>
-					</div>
-					<div class="col-lg-5">
+					<div class="col-lg-9 margin">
+						<!-- <h1 class="tituloform"></h1> -->
+				<div class="appointment-content">
+					<h2>Marque a sua consulta</h2>
+                    <span class="sub-title">	<p>Confirmaremos sua consulta dentro de 2 horas</p></span>
+                 
 
-					</div>
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <div class="icon">
+                                        <i class="fal fa-user"></i>
+                                    </div>
+                                    <label>Seu nome</label>
+                                    <input type="text" class="form-control" placeholder="Digite seu nome" id="name" name="name">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <div class="icon">
+                                        <i class="far fa-envelope-open"></i>
+                                    </div>
+                                    <label>Seu e-mail</label>
+                                    <input type="email" class="form-control" placeholder="Digite seu e-mail" id="email" name="email">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <div class="icon">
+                                        <i class="fal fa-hand-pointer"></i>
+                                    </div>
+                                    <label>Selecione a Especialidades</label>
+
+                                    <select style="display: none;">
+                                        <option>Saúde da Mulher</option>
+                                        <option>Pré Natal</option>
+                                        <option>Parto</option>
+                                        <option>Planejamento Familiar</option>
+                                        <option>Histeroscopia</option>
+                                        <option>Citologia</option>
+                                        <!-- <option>Radiology</option>
+                                        <option>Neurosurgery</option>
+                                        <option>Bariatric Surgery</option> -->
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <div class="icon">
+                                        <i class="fal fa-phone"></i>
+                                    </div>
+                                    <label>Seu telefone</label>
+                                    <input type="text" class="form-control" placeholder="Digite seu telefone" id="text" name="text">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <div class="submit-btn">
+                                    <button class="btn btn-primary">Agendar<i class="flaticon-right-chevron"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 				</div>
 			</div>
 		</section>
