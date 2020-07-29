@@ -146,7 +146,7 @@
     /* height: 40px; */
 }
 .banner{
-    height: 800px;
+    /* height: 800px; */
 }
 .banner .owl-nav {
     display: none;
@@ -877,8 +877,10 @@ h3.widgettitle {
     position: absolute;
     top: 179px;
     color: white;
-    font-size: 5.1em;
+    font-size: 2.1em;
     font-weight: 200;
+    width: 38%;
+    line-height: 37px;
 }
 .sub-video{
     position: absolute;
@@ -890,7 +892,7 @@ h3.widgettitle {
 }
 .ul-video{
     position: absolute;
-    top: 386px;
+    top: 312px;
     color: white;
     font-size: 23px;
     font-weight: 100;
@@ -905,7 +907,7 @@ h3.widgettitle {
 }
 .btn-agendar-video{
     position: absolute;
-    top: 523px;
+    top: 417px;
     color: white;
     font-size: 17px;
     font-weight: 100;
@@ -925,11 +927,11 @@ h3.widgettitle {
     border: 0px;
 }
 .banner::before{
-    content: "";
+    /* content: "";
     position: absolute;
     height: 760px;
     width: 100%;
-    background: #88423899;
+    background: #88423899; */
 }
 video{width: 100%;}
 .dt-sc-colored-icon-box.pista .dt-sc-colored-content .icon-image{
