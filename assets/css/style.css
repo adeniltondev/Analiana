@@ -8873,28 +8873,20 @@ ul.list-edit li:after {
 
 .tituloola h2 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 0px;
     color: #bd545b;
+    padding-top: 26px;
 }
 
-.btn-saiba-mais {
+/* .btn-saiba-mais {
     background-color: #bd545b;
     margin-top: 20px;
     width: 41%;
     border-radius: 50px;
     color: #fff;
-}
+} */
 
-.img-doutora-home {
-    /* width: 70%; */
-    box-shadow: 0 0 9px #dadada;
-    border-radius: 5px;
-}
-
-.img-doutora {
-    text-align: center;
-}
 
 /** dt-sc-colored-icon-box CSS**/
 
@@ -8917,7 +8909,7 @@ ul.list-edit li:after {
     transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;
     margin: 4% 2% 0px;
     padding: 0px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .dt-sc-colored-icon-box img {
@@ -10642,7 +10634,7 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
 }
 
 .formulario-home {
-    background: url(../images/sobrehome.png);
+    background: url(https://templates.hibootstrap.com/medsev/default/assets/img/home-two/6.jpg);
     padding-bottom: 100px;
     background-position: unset;
     background-repeat: no-repeat;
