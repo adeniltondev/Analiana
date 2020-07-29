@@ -132,6 +132,7 @@
 }
 .navbar-nav {
     width: 100%;
+    padding: 1.5rem 1rem;
 }
 .navbar-light .navbar-nav .nav-link {
     /* color: rgba(0,0,0,.5); */
@@ -400,7 +401,7 @@
     letter-spacing: 0px;
     color: #bd545b;
     text-align: center;
-    width: 30%;
+    width: 100%;
     margin: auto;
     margin-top: -21px;
     margin-bottom: 44px;
@@ -892,6 +893,13 @@ h3.widgettitle {
     font-size: 23px;
     font-weight: 100;
     width: 100%;
+    list-style: none;
+}
+.ul-video li{
+    font-size: 19px;
+}
+.ul-video svg{
+    color:#ff8472;
 }
 .btn-agendar-video{
     position: absolute;
@@ -909,7 +917,7 @@ h3.widgettitle {
 .hr-video{
     background-color: #ff7965;
     position: relative;
-    top: -352px;
+    top: -384px;
     width: 48%;
     height: 1px;
     border: 0px;
