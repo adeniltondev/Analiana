@@ -1738,7 +1738,7 @@ Appointment Area CSS
     content: '';
     position: absolute;
     z-index: -1;
-    /* background: #ffffff; */
+    background: #ffffff;
     width: 96%;
     opacity: .62;
     height: 50%;
@@ -1802,6 +1802,7 @@ Appointment Area CSS
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 8px;
+    background: #fff;
   }
   
   .appointment-content form .form-group .form-control::-webkit-input-placeholder {
@@ -1884,3 +1885,74 @@ Appointment Area CSS
     width: 24%;
     color:#fff;
   }
+  button.btn-agendar-atendimento {
+    position: absolute;
+    top: 498px;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    width: 17%;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    background-color: #ff796500;
+    border-radius: 38px;
+    cursor: pointer;
+    left: 390px;
+  }
+  @media(max-width:2560px) and (min-width:1440px) {
+    button.btn-agendar-atendimento {
+        position: absolute;
+        top: 595px;
+        color: white;
+        font-size: 17px;
+        font-weight: 100;
+        width: 17%;
+        padding: 12px;
+        border: 1px solid #ffffff;
+        background-color: #ff796500;
+        border-radius: 38px;
+        cursor: pointer;
+        left: 839px;
+    }
+    .hr-video {
+        background-color: #ff7965;
+        position: relative;
+        top: -351px;
+        width: 80%;
+        height: 1px;
+        border: 0px;
+    }
+    .titulo-video {
+        position: absolute;
+        top: 176px;
+        color: white;
+        font-size: 4.1em;
+        font-weight: 200;
+        width: 60%;
+        line-height: 57px;
+        font-size: 62px;
+        margin-top: 110px;
+    }
+    .ul-video {
+        position: absolute;
+        top: 439px;
+        color: white;
+        font-size: 23px;
+        font-weight: 100;
+        width: 100%;
+        list-style: none;
+    }
+    .btn-agendar-video {
+        position: absolute;
+        top: 595px;
+        color: white;
+        font-size: 17px;
+        font-weight: 100;
+        width: 17%;
+        padding: 12px;
+        border: 1px solid #ff7965;
+        background-color: #ff7965;
+        border-radius: 38px;
+        cursor: pointer;
+    }
+}
