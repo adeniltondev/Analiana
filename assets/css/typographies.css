@@ -24,7 +24,7 @@ NOTE: This is typography stylesheet of template, This file contains typography o
 html{
 	font-size: 15px; 
 }
-body { 
+/* body { 
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal; 
 	font-style: normal; 
@@ -32,7 +32,7 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
 	line-height: 26px;
-}
+} */
 a, .btn  {
 	-webkit-transition: all 0.3s ease-out 0s; 
 	-moz-transition: all 0.3s ease-out 0s; 

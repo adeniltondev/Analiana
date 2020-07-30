@@ -439,10 +439,13 @@
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 400;
-  height: 100vh;
+    padding: 0;
+    margin: 0;
+    /* font-family: "Poppins", sans-serif; */
+    font-size: 15px;
+    overflow-x:hidden;
 }
+html{scroll-behavior:smooth;}
 
 .wrapper {
   /* background: linear-gradient(60deg, #420285, #08bdbd); */
@@ -646,6 +649,7 @@ body {
 .depoimentos{
     margin-top: 100px;
     margin-bottom: 100px;
+    text-align: center;
     /* background: linear-gradient(60deg, #a6555b, #ff7965); */
 }
 #footer{
@@ -891,15 +895,16 @@ h3.widgettitle {
 }
 .titulo-video{
     position: absolute;
-    top: 116px;
+    top: -661px;
     color: white;
     font-size: 4.1em;
     font-weight: 200;
-    width: 60%;
+    width: 72%;
     line-height: 57px;
     font-size: 62px;
     margin-top: 110px;
     /* font-family: "BentonSans Regular"; */
+    z-index: 34;
 }
 .sub-video{
     position: absolute;
@@ -911,7 +916,7 @@ h3.widgettitle {
 }
 .ul-video{
     position: absolute;
-    top: 371px;
+    top: -402px;
     color: white;
     font-size: 23px;
     font-weight: 100;
@@ -928,21 +933,21 @@ h3.widgettitle {
 }
 .btn-agendar-video{
     position: absolute;
-    top: 498px;
+    top: -253px;
     color: white;
     font-size: 17px;
     font-weight: 100;
-    width: 13%;
+    width: 15%;
     padding: 12px;
     border: 1px solid #ff7965;
-    background-color:#ff7965;
+    background-color: #ff7965;
     border-radius: 38px;
     cursor: pointer;
 }
 .hr-video{
     background-color: #ff7965;
     position: relative;
-    top: -186px;
+    top: -279px;
     width: 79%;
     height: 1px;
     border: 0px;
@@ -954,7 +959,7 @@ h3.widgettitle {
     width: 100%;
     background: #88423899; */
 }
-video{width: 100%;}
+/* video{width: 100%;} */
 .dt-sc-colored-icon-box.pista .dt-sc-colored-content .icon-image{
    background: #fff;
    color:#fff;
@@ -1562,6 +1567,7 @@ body {
     padding-top: 0px;
     font-family: "BentonSansMedium";
     text-align: center;
+    margin: auto;
 }
 *================================================
 Appointment Area CSS
@@ -1917,68 +1923,69 @@ Appointment Area CSS
   }
   button.btn-agendar-atendimento {
     position: absolute;
-    top: 498px;
+    top: -253px;
     color: white;
     font-size: 17px;
     font-weight: 100;
-    width: 13%;
+    width: 20%;
     padding: 12px;
     border: 1px solid #ffffff;
     background-color: #ff796500;
     border-radius: 38px;
     cursor: pointer;
-    left: 347px;
+    left: 257px;
   }
   @media(max-width:2560px) and (min-width:1440px) {
     button.btn-agendar-atendimento {
         position: absolute;
-        top: 595px;
+        top: -223px;
         color: white;
         font-size: 17px;
         font-weight: 100;
-        width: 12%;
+        width: 21%;
         padding: 12px;
         border: 1px solid #ffffff;
         background-color: #ff796500;
         border-radius: 38px;
         cursor: pointer;
-        left: 721px;
+        left: 357px;
+    
     }
     .hr-video {
         background-color: #ff7965;
         position: relative;
-        top: -339px;
-        width: 80%;
+        top: -264px;
+        width: 75%;
         height: 1px;
         border: 0px;
     }
     .titulo-video {
         position: absolute;
-        top: 176px;
+        top: -641px;
         color: white;
         font-size: 4.1em;
         font-weight: 200;
-        width: 60%;
+        width: 71%;
         line-height: 57px;
         font-size: 62px;
         margin-top: 110px;
     }
     .ul-video {
         position: absolute;
-        top: 439px;
+        top: -392px;
         color: white;
-        font-size: 23px;
+        font-size: 26px;
         font-weight: 100;
         width: 100%;
         list-style: none;
     }
     .btn-agendar-video {
         position: absolute;
-        top: 595px;
+        top: -223px;
         color: white;
         font-size: 17px;
         font-weight: 100;
-        width: 12%;
+        width: 19%;
         padding: 12px;
         border: 1px solid #ff7965;
         background-color: #ff7965;
