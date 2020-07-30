@@ -1963,3 +1963,18 @@ Appointment Area CSS
         cursor: pointer;
     }
 }
+.btn-news{
+    background-color: #ffffff00;
+    border: 0px;
+    position: relative;
+    left: -41px;
+}
+.btn-news svg{
+    color:#fff;
+}
+.inputemail::placeholder{
+    color:#fff !important;
+}
+.footer-bullet-list{
+    list-style: none;
+}
