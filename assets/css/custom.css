@@ -156,7 +156,10 @@
 }
 .banner{
     /* margin-top: 96px; */
-    height: 800px;
+    height: 100%;
+    width: 100%;
+}
+.banner video{
     width: 100%;
 }
 .banner .owl-nav {
@@ -896,7 +899,7 @@ h3.widgettitle {
 }
 .titulo-video{
     position: absolute;
-    top: -745px;
+    top: -566px;
     color: white;
     font-size: 4.1em;
     font-weight: 200;
@@ -917,7 +920,7 @@ h3.widgettitle {
 }
 .ul-video{
     position: absolute;
-    top: -494px;
+    top: -319px;
     color: white;
     font-size: 23px;
     font-weight: 100;
@@ -934,7 +937,7 @@ h3.widgettitle {
 }
 .btn-agendar-video{
     position: absolute;
-    top: -332px;
+    top: -176px;
     color: white;
     font-size: 17px;
     font-weight: 100;
@@ -948,7 +951,7 @@ h3.widgettitle {
 .hr-video{
     background-color: #ff7965;
     position: relative;
-    top: -376px;
+    top: -216px;
     width: 79%;
     height: 1px;
     border: 0px;
@@ -1924,7 +1927,7 @@ Appointment Area CSS
   }
   button.btn-agendar-atendimento {
     position: absolute;
-    top: -328px;
+    top: -175px;
     color: white;
     font-size: 17px;
     font-weight: 100;
