@@ -133,7 +133,7 @@
 }
 .navbar{
     /* position: fixed !important; */
-    /* width: 100% !important; */
+    width: 100% !important;
     /* left: 0px !important; */
     z-index: 9999 !important;
 }
@@ -155,7 +155,7 @@
     /* height: 40px; */
 }
 .banner{
-    margin-top: 96px;
+    /* margin-top: 96px; */
     height: 800px;
     width: 100%;
 }
