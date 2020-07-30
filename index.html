@@ -27,11 +27,12 @@
 
 	<!-- responsive CSS -->
 	<link href="assets/css/responsive.css" rel="stylesheet">
+	<script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
 
 	<!-- custom CSS -->
 	<link href="assets/css/custom.css" rel="stylesheet">
 	<link href="assets/css/fontawesome-app.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> -->
 <script type="text/javascript">
 plitting();
 $('.signup').submit(function(event){
@@ -120,9 +121,9 @@ var scroll = $(window).scrollTop();
 			<h1 class="titulo-video">Excelência em obstetrícia e ginecologia</h1>
 			<!-- <p class="sub-video">Ginecologista e Obstetra referência em saúde feminina</p> -->
 			<ul class="ul-video">
-				<li><i class="fal fa-female"></i> <span style="    margin-left: 21px;">Saúde da Mulher</span></li>
-				<li><i class="fal fa-baby"></i> <span style="    margin-left: 16px;">Pré Natal</span></li>
-				<li><i class="fal fa-baby-carriage"></i> <span style="    margin-left: 10px;">Planejamento
+				<li><img class="icone-banner" src="/assets/images/woman-avatar.png"> <span>Saúde da Mulher</span></li>
+				<li><img class="icone-banner" src="/assets/images/iconeprenatal.png"> <span>Pré Natal</span></li>
+				<li><img class="icone-banner" src="/assets/images/family-charity.png"> <span></span>Planejamento
 						Familiar</span></li>
 			</ul>
 			<hr class="hr-video">
@@ -156,27 +157,23 @@ var scroll = $(window).scrollTop();
 								</div>
 							</div>
 							<!-- <a href="#" target="" title="" class="btn-saiba-mais"><button>Saiba Mais</button></a> -->
-							<a aria-label=':)' class='h-button centered' data-text='Saiba mais' href='#'>
-								<span>C</span>
-								<span>l</span>
-								<span>i</span>
-								<span>q</span>
-								<span>u</span>
-								<span>e</span>
-								<span>a</span>
-								<span>q</span>
-								<span>u</span>
-								<span>i</span>
+							<a  class='h-button centered' data-text='' href='#'>
+								Saiba mais
 							</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="img-doutora-item">
+					<!-- <div class="img-doutora-item">
 						<div class="img-doutora">
 							<img class="img-doutora-home" src="/assets/images/sobrehome.png" alt="Image">
 						</div>
-					</div>
+					</div> -->
+					<div class="about-item">
+						<div class="about-left">
+						<img src="/assets/images/sobrehome.png" alt="About">
+						</div>
+						</div>
 				</div>
 			</div>
 		</div>
