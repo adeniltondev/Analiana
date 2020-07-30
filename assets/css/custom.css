@@ -156,7 +156,8 @@
 }
 .banner{
     margin-top: 96px;
-    /* height: 800px; */
+    height: 800px;
+    width: 100%;
 }
 .banner .owl-nav {
     display: none;
