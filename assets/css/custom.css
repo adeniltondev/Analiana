@@ -895,7 +895,7 @@ h3.widgettitle {
 }
 .titulo-video{
     position: absolute;
-    top: -661px;
+    top: -745px;
     color: white;
     font-size: 4.1em;
     font-weight: 200;
@@ -916,7 +916,7 @@ h3.widgettitle {
 }
 .ul-video{
     position: absolute;
-    top: -402px;
+    top: -494px;
     color: white;
     font-size: 23px;
     font-weight: 100;
@@ -933,7 +933,7 @@ h3.widgettitle {
 }
 .btn-agendar-video{
     position: absolute;
-    top: -253px;
+    top: -332px;
     color: white;
     font-size: 17px;
     font-weight: 100;
@@ -947,7 +947,7 @@ h3.widgettitle {
 .hr-video{
     background-color: #ff7965;
     position: relative;
-    top: -279px;
+    top: -365px;
     width: 79%;
     height: 1px;
     border: 0px;
@@ -1923,7 +1923,7 @@ Appointment Area CSS
   }
   button.btn-agendar-atendimento {
     position: absolute;
-    top: -253px;
+    top: -328px;
     color: white;
     font-size: 17px;
     font-weight: 100;
@@ -1938,7 +1938,7 @@ Appointment Area CSS
   @media(max-width:2560px) and (min-width:1440px) {
     button.btn-agendar-atendimento {
         position: absolute;
-        top: -223px;
+        top: -258px;
         color: white;
         font-size: 17px;
         font-weight: 100;
@@ -1954,14 +1954,14 @@ Appointment Area CSS
     .hr-video {
         background-color: #ff7965;
         position: relative;
-        top: -264px;
+        top: -297px;
         width: 75%;
         height: 1px;
         border: 0px;
     }
     .titulo-video {
         position: absolute;
-        top: -641px;
+        top: -702px;
         color: white;
         font-size: 4.1em;
         font-weight: 200;
@@ -1972,7 +1972,7 @@ Appointment Area CSS
     }
     .ul-video {
         position: absolute;
-        top: -392px;
+        top: -436px;
         color: white;
         font-size: 26px;
         font-weight: 100;
@@ -1981,7 +1981,7 @@ Appointment Area CSS
     }
     .btn-agendar-video {
         position: absolute;
-        top: -223px;
+        top: -258px;
         color: white;
         font-size: 17px;
         font-weight: 100;
