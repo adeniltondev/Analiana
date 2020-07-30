@@ -213,15 +213,15 @@
 
 .centered {
     position: absolute;
-    left: 26%;
-    top: 84%;
-    transform: translate(-50%, -50%);
+    left: 19%;
+    top: 77%;
+    transform: translate(-50%, -50%)
 }
   
   .h-button {
     background: #ff7965;
     padding: 12px;
-    width: 250px;
+    width: 178px;
     text-align: center;
     color: white;
     border-radius: 50px;
