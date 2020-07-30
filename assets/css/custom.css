@@ -136,7 +136,7 @@
     width: 100% !important;
     left: 0px !important;
     z-index: 9999 !important;
-}
+} */
 .navbar-nav {
     width: 100%;
     padding: 1.5rem 1rem;
@@ -2474,7 +2474,7 @@ Appointment Area CSS
     width: calc(100% + 20px);
     height: 100%;
     /* background: -webkit-gradient(linear, left top, left bottom, from(var(--orange)), to(var(--pink))); */
-    background: #fff;
+    background: #ff7965;
     z-index: -1;
     left: 0;
     border-radius: 0 80px 80px 0;
@@ -2486,7 +2486,7 @@ Appointment Area CSS
     height: 100%;
     left: -20px;
     /* background: -webkit-gradient(linear, left top, left bottom, from(var(--orange)), to(var(--pink))); */
-    background: #ff8472;
+    background: #ff7965;
     border-radius: 0px 0 0 0px;
     -webkit-transform-origin: 100% 0%;
             transform-origin: 100% 0%;
