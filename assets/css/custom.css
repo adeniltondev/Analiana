@@ -1,26 +1,14 @@
-/* @font-face {
-    font-family: "BentonSansBlack";
-    src: url(../fonts/BentonSansBlack.otf);
-}
 @font-face {
-    font-family: "BentonSansBold";
-    src: url(../fonts/BentonSansBold.otf);
+    font-family: "Brillant";
+    src: url(../fonts/Brillant.ttf);
 }
-@font-face {
-    font-family: "BentonSansBook";
-    src: url(../fonts/BentonSansBook.otf);
-}
-@font-face {
-    font-family: "BentonSansMedium";
-    src: url(../fonts/BentonSansMedium.otf);
-}
-@font-face {
-    font-family: "BentonSansRegular";
-    src: url(../fonts/BentonSansRegular.otf); */
 
-@font-face {font-family: "HFNVGC+BentonSans-Bold"; src: url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.eot"); src: url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.woff") format("woff"), url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/231961903ac6d07296bfec1639d22d90.svg#HFNVGC+BentonSans-Bold") format("svg"); }
-@font-face {font-family: "BentonSansMedium"; src: url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.eot"); src: url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.woff") format("woff"), url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2411d82d932b80d2e4a7f7131145ed76.svg#BentonSansMedium") format("svg"); }
-@font-face {font-family: "BentonSans-Regular"; src: url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.eot"); src: url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.woff") format("woff"), url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3b83b6d7c11cf8f70ca43eedcf6ccc9f.svg#BentonSans-Regular") format("svg"); }
+h1, h2, h3, h4, h5, h6{
+    font-family: "Brillant" !important;
+}
+a, p, li{
+    font-family: "Brillant" !important;
+}
 .formcontato{
     background: #fff;
     box-shadow: 0 0 11px #e5e5e5;
@@ -40,7 +28,7 @@
     background-repeat: no-repeat;
 }
 .tituloform {
-    color: #ff7965;
+    color:  #ff7965;
     margin-top: -32px;
     font-weight: 500;
     font-size: 30px;
@@ -80,12 +68,12 @@
 }
 .titulo-banner{
     padding-top: 89px;
-    font-family: "HFNVGC+BentonSans-Bold";
+    /* font-family: "HFNVGC+BentonSans-Bold"; */
     font-weight: 800;
     font-size: 40px;
 }
 .sub-banner{
-    font-family: "BentonSans Regular";
+    /* font-family: "BentonSans Regular"; */
     margin-top: -27px;
     margin-bottom: 12px;
 }
@@ -110,7 +98,7 @@
     left: 164px;
 }
 .titulo-tratamento-home h2{
-    font-family: "BentonSansBold";
+    /* font-family: "BentonSansBold"; */
 }
 .sub-titulo{
     font-size: 22px;
@@ -137,25 +125,28 @@
     /* left: 0px !important; */
     z-index: 9999 !important;
 }
+.nav-link.active{
+    color: #ff7965 !important;
+}
 .navbar-nav {
     width: 100%;
     /* padding: 1.5rem 1rem; */
 }
 .nav-link{
-    font-weight: "BentonSans Regular";
+    font-family: "Brillant";
 }
 .navbar-light .navbar-nav .nav-link {
     /* color: rgba(0,0,0,.5); */
     font-weight: normal;
-    font-size: 16px;
-    color: #777 !important;
+    font-size: 20px;
+    color: #777 ;
     text-decoration: none;
     /* letter-spacing: -0.01; */
     /* line-height: 1.3em; */
     /* height: 40px; */
 }
 .banner{
-    /* margin-top: 96px; */
+    margin-top: 96px;
     height: 100%;
     width: 100%;
 }
@@ -173,32 +164,31 @@
     top: -64px;
     border-radius: 5px;
     box-shadow: 0 0 8px #dadada;
-    border-left: solid 3px #ff7965;
+    border-left: solid 3px  #ff7965;
     padding: 29px;
     width: 593px;
 }
 .card-sobre-home p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     text-align: justify;
     font-weight: 300;
     width: 89%;
     margin-bottom: 10px;
-    font-family: "BentonSans-Regular";
 }
 
 .img-doutora-home {
     /* width: 70%; */
     box-shadow: 0 0 9px #dadada;
     border-radius: 5px;
-    border-bottom: solid 4px #ff7965;
+    border-bottom: solid 4px  #ff7965;
 }
 
 .img-doutora {
     text-align: center;
 }
 .sobrehome{
-    margin-top: 100px;
+    margin-top: 50px;
     padding-bottom: 100px;
 }
 /* .img-doutora
@@ -218,12 +208,12 @@
 .centered {
     position: absolute;
     left: 19%;
-    top: 77%;
+    top: 73%;
     transform: translate(-50%, -50%)
 }
   
   .h-button {
-    background: #ff7965;
+    background:  #ff7965;
     padding: 12px;
     width: 178px;
     text-align: center;
@@ -284,13 +274,13 @@
   .cuidado{
     font-size: 17px;
     font-weight: 500;
-    color: #a6555b;
+    color: #b34e51;
     margin-top: 28px;
     position: relative;
     top: 13px;
 }
 .card {
-    background: #ff7965;
+    background:  #ff7965;
     border-radius: 4px;
     box-shadow: 0px 14px 80px rgb(218 218 218 / 50%);
     width:100%;
@@ -342,7 +332,7 @@
     position: absolute;
     border-radius: 50%;
     border: 2px solid #ef6b58;
-    background-image: linear-gradient(-60deg, #ff7965 0%, #ff7965 100%);
+    background-image: linear-gradient(-60deg,  #ff7965 0%,  #ff7965 100%);
     top: 7px;
     left: 140px;
     background: #fcfcfc;
@@ -410,22 +400,48 @@
     background-size: cover;
 } */
 .titulo-tratamento{
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0px;
-    color: #bd545b;
-    padding-top: 26px;
     text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #a33e42;
+    padding-top: 26px;
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .sub-tratamento{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 300;
     letter-spacing: 0px;
-    color: #bd545b;
+    color: #a3a4a8;
     text-align: center;
     width: 100%;
     margin: auto;
-    margin-top: -21px;
+    margin-top: -14px;
+    margin-bottom: 44px;
+}
+.titulo-atendimento{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    padding-top: 73px;
+    color: #a33e42;
+    padding-top: 26px;
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub-atendimento{
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #a3a4a8;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: -14px;
     margin-bottom: 44px;
 }
 .secaotratamento{
@@ -654,7 +670,7 @@ html{scroll-behavior:smooth;}
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
-    /* background: linear-gradient(60deg, #a6555b, #ff7965); */
+    /* background: linear-gradient(60deg, #a6555b,  #ff7965); */
 }
 #footer{
     width:100%;
@@ -864,13 +880,16 @@ h3.widgettitle {
 .footer-bullet-list a{
     color: whitesmoke;
 }
+.footer-bullet-list a:hover{
+    color:#fff;
+}
 .dt-sc-sociable  a{
     background-color: white;
     width: 30px;
     height: 30px;
     border-radius: 50px;
     padding: 3px;
-    color:#ff7965;
+    color: #ff7965;
 }
 .widget_text ul.dt-sc-sociable{
     text-align: left;
@@ -903,11 +922,11 @@ h3.widgettitle {
     color: white;
     font-size: 4.1em;
     font-weight: 200;
-    width: 72%;
+    width: 61%;
     line-height: 57px;
-    font-size: 62px;
+    font-size: 65px;
     margin-top: 110px;
-    /* font-family: "BentonSans Regular"; */
+    font-family: "Brillant";
     z-index: 34;
 }
 .sub-video{
@@ -930,6 +949,8 @@ h3.widgettitle {
 .ul-video li{
     font-size: 19px;
     margin-bottom: 2px;
+    font-family: "Brillant";
+
 }
 .ul-video svg{
     color:#ff8472;
@@ -943,16 +964,16 @@ h3.widgettitle {
     font-weight: 100;
     width: 15%;
     padding: 12px;
-    border: 1px solid #ff7965;
-    background-color: #ff7965;
+    border: 1px solid  #ff7965;
+    background-color:  #ff7965;
     border-radius: 38px;
     cursor: pointer;
 }
 .hr-video{
-    background-color: #ff7965;
+    background-color:  #ff7965;
     position: relative;
     top: -216px;
-    width: 79%;
+    width: 65%;
     height: 1px;
     border: 0px;
 }
@@ -1064,8 +1085,8 @@ transition: all .5s ease-in-out;
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-background: #ea830e;
-border-color: #ea830e;
+background: #ff7965;
+border-color: #ff7965;
 }
 
 .testim .dots .dot.active {
@@ -1110,7 +1131,7 @@ border-radius: 50%;
 }
 
 .testim .cont div h2 {
-color: #ea830e;
+color: #ff7965;
 font-size: 1em;
 margin: 15px 0;
 }
@@ -1564,175 +1585,17 @@ body {
 }
 }
 .depoimentotitulo{
-    font-size: 30px;
+    text-align: center;
+    font-size: 44px;
     font-weight: 900;
     letter-spacing: 0px;
-    color: #bd545b;
-    padding-top: 0px;
-    font-family: "BentonSansMedium";
-    text-align: center;
+    color: #a33e42;
+    /* padding-top: 26px; */
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: auto;
 }
-*================================================
-Appointment Area CSS
-=================================================*/
-.appointment-area {
-    position: relative;
-    z-index: 1;
-    background: {
-        image: url(../../assets/img/appointment-bg.jpg);
-        position: center center;
-        size: cover;
-        repeat: no-repeat;
-    }
-}
-.appointment-content {
-    background-color: $white-color;
-    padding: 50px;
-    position: relative;
-    z-index: 1;
-    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-    max-width: 700px;
-    margin: {
-        left: auto;
-        right: 100px;
-    }
-    &::before {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        background: $white-color;
-        width: 96%;
-        opacity: .62;
-        height: 50%;
-        bottom: -20px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        border-radius: 3px;
-    }
-    .sub-title {
-        display: block;
-        margin-bottom: 5px;
-        color: $main-color;
-        font: {
-            size: 17px;
-            family: $optional-font-family;
-        }
-    }
-    h2 {
-        margin-bottom: 0;
-        max-width: 520px;
-        line-height: 1.3;
-        font: {
-            size: 40px;
-            weight: 600;
-        }
-    }
-    form {
-        margin-top: 5px;
-
-        .form-group {
-            position: relative;
-            padding-left: 55px;
-            margin: {
-                bottom: 0;
-                top: 30px;
-            }
-            .icon {
-                position: absolute;
-                left: 0;
-                top: 0;
-                color: $main-color;
-                font-size: 35px;
-            }
-            label {
-                display: block;
-                text-transform: uppercase;
-                color: $paragraph-color;
-                margin-bottom: 8px;
-                font: {
-                    size: 13px;
-                    weight: 500;
-                }
-            }
-            .form-control {
-                border: none;
-                height: auto;
-                border-bottom: 1px solid #eeeeee;
-                font: {
-                    size: 17px;
-                    weight: 600;
-                }
-                padding: {
-                    left: 0;
-                    right: 0;
-                    bottom: 8px;
-                }
-                &::placeholder {
-                    color: $black-color;
-                }
-                &:focus {
-                    border-color: $main-color;
-                    padding-left: 2px;
-                }
-            }
-            .nice-select {
-                background-color: transparent;
-                color: $black-color;
-                border-radius: 0;
-                border: none;
-                border-bottom: 1px solid #eeeeee;
-                height: unset;
-                line-height: initial;
-                padding: 0 35px 8px 0;
-                font: {
-                    size: 17px;
-                    weight: 600;
-                }
-                .list {
-                    background-color: $white-color;
-                    box-shadow: 0 0 29px 0 rgba(102, 102, 102, 0.1);
-                    border-radius: 0;
-                    margin-top: 0;
-                    width: 100%;
-                    height: 260px;
-                    overflow-y: scroll;
-                    padding: {
-                        top: 10px;
-                        bottom: 10px;
-                    }
-                    .option {
-                        transition: $transition;
-                        font: {
-                            size: 15px;
-                        }
-                        padding: {
-                            left: 20px;
-                            right: 20px;
-                        }
-                        &:hover {
-                            background-color: $main-color !important;
-                            color: $white-color;
-                        }
-                        &.selected {
-                            background-color: transparent;
-                        }
-                    }
-                }
-                &:after {
-                    right: 0;
-                    border-color: $black-color;
-                }
-            }
-        }
-        .submit-btn {
-            text-align: center;
-            margin-top: 35px;
-        }
-    }
-}
-
 
 /*================================================
 Appointment Area CSS
@@ -1782,21 +1645,21 @@ Appointment Area CSS
     margin-bottom: 5px;
     color: #19ce67;
     font-size: 17px;
-    font-family: "Rubik", sans-serif;
+    /* font-family: "Rubik", sans-serif; */
   }
   
   .appointment-content h2 {
     margin-bottom: 0;
     max-width: 520px;
     line-height: 1.3;
-    font-size: 40px;
-    font-weight: 600;
-    font-size: 30px;
     font-weight: 900;
-    letter-spacing: 0px;
-    color: #bd545b;
     padding-top: 0px;
-    font-family: "BentonSansMedium";
+    font-size: 44px;
+    letter-spacing: 0px;
+    color: #a33e42;
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
   
   .appointment-content form {
@@ -1814,7 +1677,7 @@ Appointment Area CSS
     position: absolute;
     left: 0;
     top: 0;
-    color: #ff7965;
+    color:  #ff7965;
     font-size: 35px;
   }
   
@@ -1856,7 +1719,7 @@ Appointment Area CSS
   }
   
   .appointment-content form .form-group .form-control:focus {
-    border-color: #ff7965;
+    border-color:  #ff7965;
     padding-left: 2px;
     box-shadow: 0 0 0px black;
   }
@@ -1919,11 +1782,15 @@ Appointment Area CSS
     margin-top: 35px;
   }
   .btn-agender{
-    background-color: #ff7965;
-    border: 0px;
-    border-radius: 50px;
-    width: 24%;
-    color:#fff;
+    background-color:  #ff7965 !important;
+    border: 0px !important;
+    border-radius: 50px !important;
+    width: 24% !important;
+    color:#fff !important;
+  }
+  .btn-agendar, .btn:focus{
+      box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%) !important;
+      outline:none !important;
   }
   button.btn-agendar-atendimento {
     position: absolute;
@@ -1934,7 +1801,7 @@ Appointment Area CSS
     width: 20%;
     padding: 12px;
     border: 1px solid #ffffff;
-    background-color: #ff796500;
+    background-color:  #ff796500;
     border-radius: 38px;
     cursor: pointer;
     left: 257px;
@@ -1949,14 +1816,14 @@ Appointment Area CSS
         width: 21%;
         padding: 12px;
         border: 1px solid #ffffff;
-        background-color: #ff796500;
+        background-color:  #ff796500;
         border-radius: 38px;
         cursor: pointer;
         left: 357px;
     
     }
     .hr-video {
-        background-color: #ff7965;
+        background-color:  #ff7965;
         position: relative;
         top:-310px;
         width: 75%;
@@ -1991,8 +1858,8 @@ Appointment Area CSS
         font-weight: 100;
         width: 19%;
         padding: 12px;
-        border: 1px solid #ff7965;
-        background-color: #ff7965;
+        border: 1px solid  #ff7965;
+        background-color:  #ff7965;
         border-radius: 38px;
         cursor: pointer;
     }
@@ -2016,7 +1883,7 @@ Appointment Area CSS
     position: relative;
     display: inline-block;
     height: 70px;
-    font-family: "Lato";
+    /* font-family: "Lato"; */
     width: calc(100% - 400px);
     max-width: 750px;
     min-width: 350px;
@@ -2251,11 +2118,11 @@ Appointment Area CSS
     z-index: 9;
     pointer-events: none;
     font-size: 20px;
-    font-family: "Lato";
+    /* font-family: "Lato"; */
     line-height: 1.5;
   }
     #wrap .field p {
-    font-family: "Lato";
+    /* font-family: "Lato"; */
     position: relative;
     display: inline-block;
   }
@@ -2263,7 +2130,7 @@ Appointment Area CSS
     display: inline-block;
     z-index: 2;
     position: relative;
-    font-family: "Lato";
+    /* font-family: "Lato"; */
     color: transparent;
     font-weight: 900;
   }
@@ -2381,7 +2248,7 @@ Appointment Area CSS
     border: none;
     outline: none;
     font-size: 16px;
-    font-family: "Lato";
+    /* font-family: "Lato"; */
     font-size: 20px;
     font-weight: 900;
   }
@@ -2418,7 +2285,7 @@ Appointment Area CSS
     width: 15px;
     height: 3px;
     /* background: -webkit-gradient(linear, left top, right top, from(var(--pink)), color-stop(var(--orange)), to(var(--pink))); */
-    background: #ff7965;
+    background:  #ff7965;
     top: -25px;
     border-radius: 100px;
     right: 10px;
@@ -2451,7 +2318,7 @@ Appointment Area CSS
     width: 3px;
     height: 15px;
     /* background: -webkit-gradient(linear, left top, left bottom, from(var(--pink)), color-stop(var(--orange)), to(var(--pink))); */
-    background: #ff7965;
+    background:  #ff7965;
     top: calc(50% - 7.5px);
     left: calc(50% - 1.5px);
     border-radius: inherit;
@@ -2461,7 +2328,7 @@ Appointment Area CSS
     height: 70px;
     width: 70px;
     /* background: -webkit-gradient(linear, left top, left bottom, from(var(--orange)), color-stop(30%, var(--orange)), color-stop(70%, var(--pink))); */
-    background:#ff7965;
+    background: #ff7965;
     z-index: -1;
     border-radius: 100%;
     left: 20px;
@@ -2479,7 +2346,7 @@ Appointment Area CSS
             justify-content: center;
     -webkit-box-align: center;
             align-items: center;
-    font-family: "Lato";
+    /* font-family: "Lato"; */
     letter-spacing: 1px;
     z-index: 2;
     font-size: 20px;
@@ -2491,19 +2358,18 @@ Appointment Area CSS
     width: calc(100% + 20px);
     height: 100%;
     /* background: -webkit-gradient(linear, left top, left bottom, from(var(--orange)), to(var(--pink))); */
-    background: #ff7965;
+    background: -webkit-linear-gradient(135deg, rgb(186, 101, 104) 0%, rgb(234, 122, 102) 100%);
     z-index: -1;
     left: 0;
     border-radius: 0 80px 80px 0;
   }
-#wrap form .btnwrap b:after {
+/* #wrap form .btnwrap b:after {
     content: '';
     position: absolute;
     width: 20px;
     height: 100%;
     left: -20px;
-    /* background: -webkit-gradient(linear, left top, left bottom, from(var(--orange)), to(var(--pink))); */
-    background: #ff7965;
+    background: -webkit-linear-gradient(135deg, rgb(186, 101, 104) 0%, rgb(234, 122, 102) 100%);
     border-radius: 0px 0 0 0px;
     -webkit-transform-origin: 100% 0%;
             transform-origin: 100% 0%;
@@ -2512,7 +2378,7 @@ Appointment Area CSS
     -webkit-transition-delay: 1s;
             transition-delay: 1s;
     top: 0;
-  }
+  } */
 #wrap form input[type="submit"] {
     height: 70px;
     border-radius: 80px;
@@ -2863,4 +2729,333 @@ Appointment Area CSS
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+}
+.secao-sobre{
+    padding-top: 137px;
+}
+
+  
+  
+  #wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .sobre-content {
+    /* max-width: 800px; */
+    width: 100%;
+    min-width: 260px;
+    margin: 0 0%;
+    margin-top: 20%;
+    transition: 0.3s ease;
+    margin-left: auto;
+    margin-right: 69px;
+
+  }
+  @media screen and (max-width: 512px) {
+    .content {
+      margin: 0 4%;
+      margin-top: 5%;
+    }
+  }
+  
+  /* Tabs menu */
+  .tabs {
+    margin: 0;
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-radius: 2px 2px 0px 0px;
+    width: 54%;
+    margin-left: auto;
+  }
+  @media screen and (max-width: 512px) {
+    .tabs {
+      height: 40px;
+    }
+  }
+  
+  /* Tab Links */
+  .tablinks {
+    background: #e7e7e7;
+    /* background-image: linear-gradient(90deg, transparent 70%, rgba(255, 255, 255, 0.2) 100%); */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 25%;
+    /* height: 80px; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 16px; */
+    /* font-family: "BentonSans Regular"; */
+    overflow: hidden;
+    transition: 0.3s ease;
+    border-radius: 0px;
+    border-right: solid 3px #b35256;
+}
+  }
+  @media screen and (max-width: 512px) {
+    .tablinks {
+      height: 40px;
+      font-size: 12px;
+    }
+  }
+  
+  .tablinks:before {
+    background-image: linear-gradient(135deg, #a6555b 0%,  #ff7965 100%);
+    content: "";
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    z-index: 2;
+  }
+  
+  /*tab buttons hover*/
+  .tablinks:hover::before {
+    height: 100%;
+    z-index: 2;
+    bottom: 0;
+  }
+  @media screen and (max-width: 512px) {
+    .tablinks:hover::before {
+      height: 0;
+    }
+  }
+  
+  /* Tab active */
+  .tablinks.active {
+    background-color: white;
+    z-index: 0;
+    border-right: 0px;
+    border-left: 0px;
+    /* height: 110px; */
+    bottom: 0px;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 512px) {
+    .tablinks.active {
+      height: 60px;
+    }
+  }
+  
+  .tablinks.active:before {
+    content: "";
+    width: 100%;
+    height: 27px;
+    top: 0px;
+    left: 0;
+  }
+  
+  /* Tabs text */
+  .tablinks.active p,
+  .tablinks.active:hover p {
+    opacity: 1;
+    background: -webkit-linear-gradient(135deg, #fff 0%, #fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .tablinks p {
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: 0.5s ease;
+    padding: 0;
+    margin: 0;
+    color: #686868;
+    backface-visibility: hidden;
+    font-weight: 400;
+  }
+  
+  .tablinks:hover p {
+    color: white;
+    opacity: 1;
+  }
+  @media screen and (max-width: 512px) {
+    .tablinks:hover p {
+      color: #686868;
+      opacity: 0.6;
+    }
+  }
+  
+  /* Tabs text bigger */
+  .tablinks p:before {
+    content: attr(data-title);
+    position: absolute;
+    height: auto;
+    width: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.1;
+    font-size: 40px;
+    transition: 1s ease-out;
+    z-index: -1;
+    font-weight: 600;
+    top: 110%;
+  }
+  @media screen and (max-width: 512px) {
+    .tablinks p:before {
+      display: none;
+    }
+  }
+  
+  .tablinks:hover p:before {
+    opacity: 0.1;
+    font-size: 40px;
+    top: -80%;
+  }
+  
+  /* tab content */
+  .wrapper_tabcontent {
+    background-color: white;
+    margin-top: 0px;
+    /* z-index: -3; */
+    position: relative;
+    opacity: 1;
+    /* padding: 40px 60px; */
+    /* overflow: hidden; */
+    transition: all 1s ease;
+    top: 0;
+  }
+  
+  .tabcontent {
+    display: none;
+    min-height: 180px;
+  }
+  
+  @keyframes tabEffect {
+    from {
+      top: -40px;
+    }
+    to {
+      top: 0px;
+    }
+  }
+  .tabcontent.active {
+    transition: all 1s ease;
+    display: block;
+  }
+  
+  /* Tab content line */
+  .wrapper_tabcontent:after {
+    content: "";
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+    transition: all 1s ease;
+  }
+  
+  /* Title */
+  .tabcontent h3 {
+    font-size: 40px;
+    top: 274px;
+    /* transform: rotate(90deg); */
+    /* position: absolute; */
+    left: 14px;
+    /* opacity: 0.1; */
+    width: 100%;
+    height: 60px;
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+    animation: city 1s ease;
+    margin-top: 20px;
+    /* font-family: "BentonSans Medium"; */
+
+  }
+  @media screen and (max-width: 512px) {
+    .tabcontent h3 {
+      top: 65px;
+    }
+  }
+  
+  @keyframes city {
+    from {
+      left: -150px;
+    }
+    to {
+      left: -90px;
+    }
+  }
+  /* Text*/
+  .tabcontent p {
+    color: #686868;
+    margin: 0;
+    padding: 0;
+    line-height: 28px;
+    font-weight: 100;
+    transition: all 1s ease;
+    animation: fadeEffect 0.6s ease;
+    width: 100%;
+    font-size: 16px;
+    /* font-family: "IBM Plex Sans", sans-serif; */
+  }
+  @media screen and (max-width: 512px) {
+    .tabcontent p {
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+  
+  @keyframes fadeEffect {
+    from {
+      opacity: 0;
+      margin-left: 30px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 0;
+    }
+  }
+  .doutora{
+    top: -135px;
+    left: -51px;
+  }
+  .doutora img{
+    box-shadow: 0 0 11px #cecece;
+    border-radius: 5px;
+
+  }
+  .floatingnav {
+    width: calc(100vh - 100px);
+    box-shadow: 0px 2px 14px #f3f3f3;
+    border:0px;
+  }
+ .tabcontent p{
+    /* font-family: "BentonSans Regular"; */
+    font-weight: 100;
+    font-size: 15px;
+    /* margin-top: 15px; */
+    line-height: 21px;
+    color: #949494;
+    text-align: justify;
+    margin-top: 10px;
+ }
+.sub-consulta{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #a3a4a8;
+    width: 100%;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 44px;
 }

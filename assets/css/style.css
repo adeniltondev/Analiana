@@ -8872,13 +8872,16 @@ ul.list-edit li:after {
 }
 
 .tituloola h2 {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 900;
     letter-spacing: 0px;
     color: #bd545b;
     padding-top: 26px;
-    font-family: "BentonSansMedium";
+    /* font-family: "BentonSansMedium"; */
     margin-top: 30px;
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* .btn-saiba-mais {
@@ -9921,6 +9924,10 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
     color: #000;
     line-height: 19px;
     font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #a3a4a8;
 }
 
 .dt-sc-image-caption.type8 .dt-sc-image-title {
@@ -9931,7 +9938,7 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
 .dt-sc-image-caption.type8 .dt-sc-image-content h3 {
     font-size: 18px;
     font-weight: 600;
-    color:#ff7965cf;
+    color: #ff7965cf;
     text-transform: none;
 }
 
@@ -9954,7 +9961,7 @@ table.dt-sc-diet-chart tr:last-child td:last-child {
     line-height: 50px;
     border: 7px solid #fff;
     z-index: 1;
-    background: #ff7965;
+    background:  #ff7965;
 }
 
 .dt-sc-image-caption.type8 .dt-sc-image-title:before,
@@ -10767,7 +10774,7 @@ footer {
 }
 
 .whatsapp {
-    background-color: #ff7965;
+    background-color:  #ff7965;
     position: fixed;
     margin-bottom: 56px;
     bottom: 0px;

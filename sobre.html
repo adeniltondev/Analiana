@@ -5,65 +5,30 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Analiana</title>
+	<title>Analiana - Sobre</title>
 
-	<!-- plugins -->
 	<link rel="stylesheet" type="text/css" href="assets/css/plugin.css" />
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" /> -->
-
-
-	<!-- typography -->
 	<link rel="stylesheet" type="text/css" href="assets/css/typographies.css" />
-
-	<!-- templete element -->
 	<link rel="stylesheet" type="text/css" href="assets/css/template-element.css" />
 	<link href="assets/css/fontawesome-app.css" rel="stylesheet">
-
-	<!-- template CSS -->
 	<link href="assets/css/style.css" rel="stylesheet">
-
-	<!-- responsive CSS -->
-	<link href="assets/css/responsive.css" rel="stylesheet">
-	<script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
-
-	<!-- custom CSS -->
 	<link href="assets/css/custom.css" rel="stylesheet">
-	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> -->
-<!-- <script type="text/javascript">
-plitting();
-$('.signup').submit(function(event){
- event.preventDefault();
- 
- var emailText = $('.email').val();
- $(".field").append("<p data-splitting='chars'>" + emailText + "</p>");
-  Splitting();
-  $("#wrap").addClass("plunge");
-  setTimeout(function(){	
-    $('.email').val('');
-    $( ".field p" ).remove();
-    $("#wrap").removeClass("plunge");
-}, 4000);
-});
-</script> -->
-<!-- <script>
-	$(window).scroll(function() {    
-var scroll = $(window).scrollTop();
-  if (scroll >= 40) {               
-    $("#menu").addClass("ativo");    
-  } else {
-    $("#menu").removeClass("ativo"); 
-  }
-});
-</script> -->
-</head>
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 
+
+    <script src="/assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	
+</head>
 <body>
 
 
-	<section class="menu">
-			<div class="container-fluid">
+<section class="menu">
+		<header>
+			<div class="container-fluid clearfix">
 				<div class="row">
-				<nav id="menu" class="navbar navbar-expand-lg fixed-top navbar-light">
+				<nav id="menu" class="navbar navbar-expand-lg fixed-top  navbar-light">
 					<a class="navbar-brand" href="/"><img src="/assets/images/logo.png"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 						aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
@@ -71,11 +36,11 @@ var scroll = $(window).scrollTop();
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						<ul class="navbar-nav">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+							<li class="nav-item">
+								<a class="nav-link" href="/">Home <span class="sr-only">(Página atual)</span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Sobre</a>
+								<a class="nav-link active" href="#">Sobre</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Especialidades</a>
@@ -96,18 +61,55 @@ var scroll = $(window).scrollTop();
 				</nav>
 			</div>
 		</div>
-	</section>
-
-
-<section>
-  <div class="container">	
-   <div class="row">
-
-</div>
-</div>
+	</header>
 </section>
 
 
+ <section id="wrapper">
+	<div class="container">
+	<div class="sobre-content">
+	   <!-- Tab links -->
+	   <div class="tabs">
+		  <button class="tablinks active" data-country="Perfil"><p data-title="Perfil">Perfil</p></button>
+		  <button class="tablinks" data-country="Paris"><p data-title="Paris">Curriculum</p></button>
+		  <button class="tablinks" data-country="Barcelona"><p data-title="Barcelona">História</p></button>
+		  <button class="tablinks" data-country="Madrid"><p data-title="Madrid">Madrid</p></button>
+	   </div>
+ 
+	   <!-- Tab content -->
+	   <div class="wrapper_tabcontent">
+		  <div id="Perfil" class="tabcontent active">
+			 <div class="row">
+				 <div class="col-lg-6 doutora">
+					<img class=""  src="/assets/images/doutora-sobre.png">	 
+				</div>
+				<div class="col-lg-6">
+			 <h3>Dra. Analiana Arrais</h3>
+			 <p>Escolhi cuidar das mulheres porque elas me permitem ir longe, em toda sua complexidade física, hormonal e emocional. Como mulher e mãe entendo claramente os momentos importantes das nossas vidas. Por isso busco continuamente por um serviço perfeito, exclusivo e personalizado.</p>
+		     <p>Atuo no cuidado global da saúde feminina, na prevenção de doenças e no tratamento de patologias. Obstetra por paixão, acredito na importância do protagonismo feminino durante a gestação, parto e pós-parto. Realizo atendimento humanizado e individualizado de alta qualidade, buscando estabelecer uma relação de confiança e carinho com minhas pacientes.</p>
+			 </div>
+			</div>
+		</div>
+ 
+		  <div id="Paris" class="tabcontent">
+			 <h3>Paris</h3>
+			 <p>Paris is in the Paris department of the Paris-Isle-of-France region The French historic, political and economic capital, with a population of only 2.5 million is located in the northern part of France. One of the most beautiful cities in the world. Home to historical monuments such as Notre Dame, the Eiffel tower (320m), Bastille, Louvre and many more. </p>
+		  </div>
+ 
+		  <div id="Barcelona" class="tabcontent">
+			 <h3>Barcelona</h3>
+			 <p>Barcelona has been an urban laboratory since the high Medieval Ages. A place of diversity, a backdrop for a multiplicity of social and cultural processes on multiple scales that reflect different ways of constructing the future, a city with a long experience of urban life and social innovations. </p>
+		  </div>
+ 
+		  <div id="Madrid" class="tabcontent">
+			 <h3>Madrid</h3>
+			 <p>Madrid is in the middle of Spain, in the Community of Madrid. The Community is a large area that includes the city as well as small towns and villages outside the city. 7 million people live in the Community. More than 3 million live in the city itself. 
+			 </p>
+		  </div>
+	</div>
+</div>
+	</div>
+ </section>
 
 
 <footer id="footer">
@@ -166,7 +168,7 @@ var scroll = $(window).scrollTop();
 					<aside id="text-6" class="widget widget_text">
 						<!-- <h3 class="widgettitle">Call <span class="last-word">Us</span></h3> -->
 						<div class="textwidget">
-							<div class="dt-sc-contact-info  ph-no">335-565-2900</div>
+							<!-- <div class="dt-sc-contact-info  ph-no">335-565-2900</div> -->
 							<div class="vc_empty_space" style="height: 30px"><span
 									class="vc_empty_space_inner"></span></div>
 							<ul class="dt-sc-sociable ">
@@ -252,19 +254,13 @@ var scroll = $(window).scrollTop();
 
 
 <script src="assets/js/all.js"></script>
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/js/popper.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/js/nav.js"></script>
+<script src="/assets/js/customizacao.js"></script>
 <script src="assets/vendor/owlcarousel/js/owl.carousel.min.js"></script>
 <script src="assets/vendor/owlcarousel/js/jquery.mousewheel.min.js"></script>
 <script src="assets/vendor/jquery-nice-select/jquery-nice-select.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/vendor/prettyPhoto/js/jquery.prettyPhoto.js"></script>
 <script src="assets/js/customizer.js"></script>
-<script src="assets/js/template.js"></script>
-<script src="assets/js/jarallax.js"></script>
-
 
 </body>
 </html>
