@@ -126,6 +126,8 @@ font-weight: 500;
 width: 100%;
 text-align: right;
 list-style: none;
+top: 10px;
+    position: relative;
 }
 
 .redesmenu li {
@@ -170,7 +172,7 @@ text-decoration: none;
 }
 
 .banner {
-margin-top: 96px;
+margin-top: 83px;
 height: 100%;
 width: 100%;
 }
@@ -3380,4 +3382,37 @@ list-style: none;
 }
 .sub-atendimento:hover{
     color:#cd6d67;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  
+  .megamenu {
+    position: static;
+  }
+  .megamenu .dropdown-menu {
+    border: none;
+    width: 1000px;
+  }
+  .cor-menu{
+    background-color: #e3e3e3;
+    margin: auto;
+    right: 152px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+  }
+  .navbar-expand-lg .navbar-collapse{
+      width:-webkit-fill-available;
+  }
+  .hr-ob {
+    border-right: solid 2px #be6f73;
+}
+.dropdown-toggle::after{
+    content: none !important;
+}
+#megamenu svg{
+    position: relative;
+    top: 2px;
+    right: 5px;
 }
