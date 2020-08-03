@@ -1932,11 +1932,12 @@ margin-top: 35px;
 }
 
 .btn-agender {
-background-color: #ff7965 !important;
-border: 0px !important;
-border-radius: 50px !important;
-width: 24% !important;
-color: #fff !important;
+    background-color: #ff7965 !important;
+    border: 0px !important;
+    border-radius: 50px !important;
+    width: 17% !important;
+    color: #fff !important;
+    padding: 13px !important;
 }
 
 .btn-agendar,
@@ -1973,7 +1974,7 @@ button.btn-agendar-atendimento {
     background-color: #ff796500;
     border-radius: 38px;
     cursor: pointer;
-    left: 357px;
+    left: 301px;
 
 }
 
@@ -2607,7 +2608,7 @@ position: absolute;
 width: calc(100% + 20px);
 height: 100%;
 /* background: -webkit-gradient(linear, left top, left bottom, from(var(--orange)), to(var(--pink))); */
-background: -webkit-linear-gradient(135deg, rgb(186, 101, 104) 0%, rgb(234, 122, 102) 100%);
+background: #ff7965;
 z-index: -1;
 left: 0;
 border-radius: 0 80px 80px 0;
@@ -3374,3 +3375,9 @@ list-style: none;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.12156862745098039);
 }
 .dropdown:hover .dropdown-menu {display: block;}
+.sub-tratamento:hover{
+  color:#cd6d67;
+}
+.sub-atendimento:hover{
+    color:#cd6d67;
+}
