@@ -41,12 +41,12 @@ $(window).scroll(function(){
 // vars
 'use strict'
 var	testim = document.getElementById("testim"),
-	testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+		testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
     testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
     testimLeftArrow = document.getElementById("left-arrow"),
     testimRightArrow = document.getElementById("right-arrow"),
     testimSpeed = 4500,
-    currentSlide = 1,
+    currentSlide = 0,
     currentActive = 0,
     testimTimer,
 		touchStartPos,
@@ -147,3 +147,4 @@ window.onload = function() {
 			
 		})
 }
+
