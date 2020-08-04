@@ -3486,8 +3486,8 @@ list-style: none;
     background: rgb(255, 255, 255);
     transform: translateX(50%);
     -webkit-transform: translateX(150%);
-    top: -392px;
-    left: 675px;
+    top: -495px;
+    left: 806px;
 }
 
 .slide-in {
@@ -3565,15 +3565,12 @@ padding-top: 180px;
     font-size: 19px;
 }
 .slide-in img{
-    width: 79%;
+    width: 81%;
     border-radius: 5px;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.1);
     position: relative;
-    top: -94px;
-
-}
-#slider{
-    background: transparent;
+    top: -7px;
+    left: -174px;
 }
 .flaticon-medico:before {
     content: "\f100";
@@ -3594,3 +3591,55 @@ padding-top: 180px;
     .secao-atendimento-sobre {
         height: 855px;
 }}
+#slider {
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    padding-top: 13px;
+    margin-left: 131px;
+}
+.victoria{
+    color: #c96c67;
+    font-size: 15px !important;
+    border-top: solid 1px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: solid 1px;
+    font-style: normal !important;
+}
+
+.bg-historia{
+        background: rgb(245, 245, 245);
+        height: 339px;
+        border-right: solid 2px #ff7965;
+        border-radius: 5px; 
+}
+
+@media (min-width:1440px) and (max-width:2560px) {
+    .secao-atendimento-sobre {
+        height: 817px;
+}
+#slider {
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    padding-top: 13px;
+    margin-left: 131px;
+    left: 1050px;
+}
+.victoria{
+    color: #c96c67;
+    font-size: 15px !important;
+    border-top: solid 1px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: solid 1px;
+    font-style: normal !important;
+}
+.box-atendimento-sobre {
+    max-width: 72%;
+    margin: initial;
+}
+.slide-in img {
+    width: 69%;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.1);
+    position: relative;
+    top: -7px;
+    left: -255px;
+}
+}
