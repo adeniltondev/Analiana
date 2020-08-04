@@ -172,3 +172,5 @@ $toggle.addEventListener('click', function() {
 
     $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
 });
+
+

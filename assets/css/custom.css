@@ -3545,3 +3545,29 @@ padding-top: 180px;
     margin-left: 14px;
     padding-left: 16px;
 }
+.sobre-foto-bg img{
+    width: 100%;
+}
+.box-atendimento-sobre h1{
+    font-size: 40px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(135deg, #ba6568 0%, #ea7a66 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: city 1s ease;
+    line-height: 37px;
+    margin-bottom: 39px;
+}
+.box-atendimento-sobre p{
+    font-style: italic;
+    line-height: 17px;
+    text-align: justify;
+}
+.slide-in img{
+    width: 79%;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.1);
+}
+#slider{
+    background: transparent;
+}
