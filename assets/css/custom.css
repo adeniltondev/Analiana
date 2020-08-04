@@ -3589,3 +3589,8 @@ padding-top: 180px;
     font-size: 36px !important;
     position: absolute;
 }
+
+@media (min-width:1440px) and (max-width:2560px) {
+    .secao-atendimento-sobre {
+        height: 855px;
+}}
