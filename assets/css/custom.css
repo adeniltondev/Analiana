@@ -3328,6 +3328,9 @@ list-style: none;
 }
 .ul-curriculum svg{
    color:#ef6b58;
+   display: -webkit-inline-box;
+   position: absolute;
+   left: 0px;
 }
 .secao-gine-sobre{
     padding-top: 100px;
@@ -3518,6 +3521,7 @@ list-style: none;
     background: rgb(245, 245, 245);
     height: 670px;
     border-right: solid 2px #ff7965;
+    border-radius:5px;
 }
 .padding{
     padding-right: 78px !important;
@@ -3528,4 +3532,16 @@ padding-top: 180px;
 .img-atendimento{
     width: 96% !important;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.1);
+}
+.ul-curriculum li{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 26px;
+    color: #949494;
+    text-align: justify;
+    margin-top: 10px;
+}
+.ul-curriculum p{
+    margin-left: 14px;
+    padding-left: 16px;
 }
