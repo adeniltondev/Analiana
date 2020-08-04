@@ -3014,7 +3014,7 @@ width: 100%;
 
 .sobre-content {
 width: 100%;
-min-width: 260px;
+min-width: 1192px;
 margin: 0 0%;
 margin-top: 20%;
 transition: 0.3s ease;
@@ -3033,7 +3033,7 @@ margin-right: 69px;
 .tabs {
 margin: 0;
 display: flex;
-justify-content: space-between;
+/* justify-content: space-between; */
 align-items: center;
 height: 80px;
 border-radius: 2px 2px 0px 0px;
@@ -3183,12 +3183,13 @@ top: -80%;
 }
 
 .wrapper_tabcontent {
-background-color: white;
+/* background: rgb(245, 245, 245); */
 margin-top: 0px;
 position: relative;
 opacity: 1;
 transition: all 1s ease;
 top: 0;
+margin-bottom: -82px;
 }
 
 .tabcontent {
@@ -3293,7 +3294,7 @@ left: -51px;
 .doutora img {
 box-shadow: 0 0 11px #cecece;
 border-radius: 5px;
-
+border-bottom: solid 3px #ff7965;
 }
 
 .floatingnav {
@@ -3303,12 +3304,12 @@ border: 0px;
 }
 
 .tabcontent p {
-font-weight: 100;
-font-size: 15px;
-line-height: 21px;
-color: #949494;
-text-align: justify;
-margin-top: 10px;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 26px;
+    color: #949494;
+    text-align: justify;
+    margin-top: 10px;
 }
 
 .sub-consulta {
@@ -3329,7 +3330,7 @@ list-style: none;
    color:#ef6b58;
 }
 .secao-gine-sobre{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 .gine-sobre{
@@ -3343,7 +3344,8 @@ list-style: none;
     -webkit-text-fill-color: transparent;
     animation: city 1s ease;
     line-height: 37px;
-    margin-bottom: 50px;
+    margin-top: 140px;
+    margin-bottom: 44px;
 }
 .icon-sobre{
     background-color: #ff7965;
@@ -3415,4 +3417,115 @@ list-style: none;
     position: relative;
     top: 2px;
     right: 5px;
+}
+.box-atendimento-sobre{
+    max-width: 648px;
+    margin: initial;
+}
+.btn-box-atendimento-sobre{
+    font-size: 16px;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #ff7965;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgba(73,124,155,0);
+    border-radius: 50px;
+    padding:10px 30px 10px 35px;
+}
+.elementor-shape-top {
+    top: -18px;
+    position: relative;
+}
+.elementor-shape {
+    overflow: hidden;
+    /* position: absolute; */
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+.elementor-2 .elementor-element.elementor-element-iscuobx > .elementor-shape-top svg {
+    width: calc(136% + 1.3px);
+    height: 40px;
+}
+.elementor-shape svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    /* left: 50%; */
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transform: rotateX(45deg);
+}
+.secao-atendimento-sobre{
+   background: #f5f5f5;
+   height: 774px;
+}
+.elementor-2 .elementor-element.elementor-element-iscuobx > .elementor-shape-top .elementor-shape-fill {
+    fill: #f7f7f7;
+}
+.elementor-shape .elementor-shape-fill {
+    fill: #ff7965;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+#slider {
+    position: relative;
+    background: rgb(255, 255, 255);
+    transform: translateX(50%);
+    -webkit-transform: translateX(150%);
+    top: -392px;
+    left: 675px;
+}
+
+.slide-in {
+    animation: slide-in 15.5s forwards;
+    -webkit-animation: slide-in 15.5s forwards;
+}
+
+.slide-out {
+    animation: slide-out 5.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+}
+    
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(50%); }
+}
+    
+@keyframes slide-out {
+    0% { transform: translateX(50%); }
+    100% { transform: translateX(50%); }
+}
+
+@-webkit-keyframes slide-out {
+    0% { -webkit-transform: translateX(0%); }
+    100% { -webkit-transform: translateX(50%); }
+}
+.bg-tabs{
+    background: rgb(245, 245, 245);
+    height: 670px;
+    border-right: solid 2px #ff7965;
+}
+.padding{
+    padding-right: 78px !important;
+}
+.bg-sobre{
+padding-top: 180px;
+}
+.img-atendimento{
+    width: 96% !important;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.1);
 }
