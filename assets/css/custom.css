@@ -3360,7 +3360,7 @@ list-style: none;
     float: left;
     margin-right: 26px;
 }
-.icon-sobre svg{
+.icon-sobre i{
     font-size: 27px;
     color:#fff;
 }
@@ -3574,4 +3574,18 @@ padding-top: 180px;
 }
 #slider{
     background: transparent;
+}
+.flaticon-medico:before {
+    content: "\f100";
+    line-height: 19px !important;
+    left: 7px;
+    font-size: 36px !important;
+    position: absolute;
+}
+.flaticon-seguro-medico:before{
+    content: "\f100";
+    line-height: 28px !important;
+    left: 9px;
+    font-size: 36px !important;
+    position: absolute;
 }
