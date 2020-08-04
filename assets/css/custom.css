@@ -3560,13 +3560,17 @@ padding-top: 180px;
 }
 .box-atendimento-sobre p{
     font-style: italic;
-    line-height: 17px;
+    line-height: 21px;
     text-align: justify;
+    font-size: 19px;
 }
 .slide-in img{
     width: 79%;
     border-radius: 5px;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.1);
+    position: relative;
+    top: -94px;
+
 }
 #slider{
     background: transparent;
