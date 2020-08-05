@@ -3867,3 +3867,6 @@ Our Vision Area CSS
     -webkit-text-fill-color: transparent;
     animation: city 1s ease
 }
+.bg-branco{
+    background: #fff;
+}
