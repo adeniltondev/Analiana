@@ -3870,3 +3870,16 @@ Our Vision Area CSS
 .bg-branco{
     background: #fff;
 }
+.box-secao-2:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+        background-image: linear-gradient(135deg, #a6555b 0%, #ff7965 100%);
+        color:#fff !important;
+}
+.box-secao-2:hover p {
+    color:#fff !important;
+}
+.box-secao-2:hover img {
+     border:solid 2px ;
+}
