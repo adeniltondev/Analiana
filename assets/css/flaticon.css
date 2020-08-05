@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 04/08/2020 17:06
+  	Creation date: 05/08/2020 12:05
   	*/
 
 @font-face {
@@ -18,17 +18,19 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Flaticon";
-    src: url("./Flaticon.svg#Flaticon") format("svg");
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
   }
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 50px;
+        /* font-size: 20px; */
 font-style: normal;
 margin-left: 20px;
 }
 
 .flaticon-medico:before { content: "\f100"; }
 .flaticon-seguro-medico:before { content: "\f101"; }
+.flaticon-pelvic-area:before { content: "\f102"; }
+.flaticon-vagina:before { content: "\f103"; }
