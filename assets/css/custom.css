@@ -3790,6 +3790,8 @@ Our Vision Area CSS
     font-size: 25px !important;
     -webkit-transition: 0.5s !important;
     transition: 0.5s !important;
+    left: 246px;
+    top: 40px;
   }
   
   .single-vision-box h3 {
@@ -3824,7 +3826,7 @@ Our Vision Area CSS
   
   .single-vision-box::after {
     content: '' !important;
-    position: absolute !important;
+    /* position: absolute !important; */
     width: 100px !important;
     height: 100px !important;
     border: 10px solid #ffffff !important;
