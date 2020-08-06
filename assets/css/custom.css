@@ -3911,3 +3911,12 @@ Our Vision Area CSS
 .gine-float{
     float: right;
 }
+.img-mulher{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #eff5ff;
+}
+.img-analiana-gine{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #eff5ff;
+    margin-top: 119px;
+}
